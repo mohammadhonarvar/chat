@@ -1,0 +1,43 @@
+{
+  "name": "chat",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=18.13.0",
+    "npm": ">=8.0.0",
+    "yarn": ">=1.22.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "c": "yarn clean",
+    "cb": "run-s clean build",
+    "fl": "yarn format:eslint",
+    "fp": "yarn format:prettier",
+    "lint": "run-s lint:*",
+    "lint:ts": "eslint . --config .eslintrc.json --ext .ts --ignore-path .gitignore",
+    "format": "run-s format:prettier format:eslint",
+    "format:eslint": "yarn lint:ts --fix",
+    "format:prettier": "prettier . --ignore-path .gitignore --write"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "eslint": "^8.33.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-import-resolver-typescript": "^3.5.3",
+    "eslint-plugin-import": "^2.27.5",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}
