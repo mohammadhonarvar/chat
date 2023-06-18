@@ -1,0 +1,32 @@
+.iconbar {
+  width: 100%;
+  height: 90px;
+  display: flex;
+}
+.icon {
+  width: 100%;
+  height: 90px;
+  display: flex;
+}
+.iconbar-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #2675ec;
+}
+.iconbar {
+  width: 90px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+}
+h1 {
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 36px;
+}

@@ -1,0 +1,32 @@
+export const data = [
+  {
+    id: 1,
+    image: "https://picsum.photos/id/237/80/80",
+    name: "AlirezaFakhar",
+    massage: "halet khobe?",
+    time: "15:20",
+    pin: "true",
+    seen: "false",
+    numbermassega: "2",
+  },
+  {
+    id: 2,
+    image: "https://picsum.photos/id/237/80/80",
+    name: "AlirezaFakhar",
+    massage: "halet khobe?",
+    time: "15:20",
+    pin: "true",
+    seen: "false",
+    numbermassega: "2",
+  },
+  {
+    id: 3,
+    image: "https://picsum.photos/id/237/80/80",
+    name: "AlirezaFakhar",
+    massage: "halet khobe?",
+    time: "15:20",
+    pin: "true",
+    seen: "false",
+    numbermassega: "2",
+  },
+];
