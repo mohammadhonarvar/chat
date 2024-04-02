@@ -1,8 +1,9 @@
-import { Container, Typography, Box } from "@mui/material";
+import { Container, Typography, Box, Input, Button } from "@mui/material";
 import React, { useState } from "react";
 import { data } from "../data";
 import "../profilemain.css";
-
+import PhoneValidate from "../../../input-componet/PhoneValidate";
+const ariaLabel = { "aria-label": "description" };
 const Profileuser = () => {
   const [profiledata, setProfiledata] = useState(data);
   return (
@@ -96,7 +97,9 @@ const Profileuser = () => {
                   >
                     Account
                   </Typography>
-                  <Typography
+                  <PhoneValidate />
+
+                  {/* <Typography
                     gutterBottom
                     variant="h6"
                     component="div"
@@ -108,8 +111,8 @@ const Profileuser = () => {
                     }}
                   >
                     {item.number}
-                  </Typography>
-                  <Typography
+                  </Typography> */}
+                  {/* <Button
                     gutterBottom
                     variant="h6"
                     component="div"
@@ -121,7 +124,7 @@ const Profileuser = () => {
                     }}
                   >
                     Tap to change phone number
-                  </Typography>
+                  </Button> */}
                 </Box>
                 <Box
                   sx={{
